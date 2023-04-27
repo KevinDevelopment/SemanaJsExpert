@@ -6,6 +6,7 @@ workers -> processo em segundo plano
 services -> 
 -> toda logica de negocio, regra de negocio
 -> toda chamada externa (API, arquivos, banco de dados)
+-> tudo que é externo e esta fora do nosso código
 
 index.js -> responsável por chamar todas as camadas
 
